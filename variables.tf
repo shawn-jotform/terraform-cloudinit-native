@@ -12,6 +12,6 @@ Each map should have the following fields:
   type = list(object({
       content-type = string
       filepath =  string
-      vars = map
+      vars = any
   }))
 }
